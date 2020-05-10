@@ -1,4 +1,6 @@
-# w205-final-project
+
+![Game screenshot](game_image.png)
+
 
 This project demonstrates a simple data pipeline from the app level to the database.
 The API server is served using Flask, and each incoming events are queued in kafka and read by 4 dedicated spark sessions to write to HDFS.
